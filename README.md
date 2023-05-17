@@ -1,63 +1,32 @@
-# Build and Deploy: TWITTER clone with React, Tailwind, Next, Prisma, Mongo, NextAuth & Vercel (2023)
+# Twitter Clone
 
-![Fullstack Twitter Clone (2)](https://user-images.githubusercontent.com/23248726/224405420-03112a76-250a-4283-992c-60e235170678.png)
+This is a Twitter clone application built with Next.js 13, React, Tailwind CSS, Prisma, MongoDB, TypeScript, and NextAuth.js. It aims to replicate the basic functionality of Twitter, allowing users to create accounts, post tweets, follow other users, and interact with tweets through likes and comments.
 
+## Features
 
-This is a repository for a FullStack Twitter clone tutorial using React, NextJS, TailwindCSS & Prisma.
+- User authentication: Users can create an account, log in, and log out using NextAuth.js for easy authentication setup.
+- Tweet creation: Users can compose and post their own tweets, including text and optionally images or videos.
+- Timeline: Users can view a timeline of tweets from the users they follow, allowing them to stay updated on the latest posts.
+- User profiles: Each user has a profile page where their tweets and other information are displayed.
+- Follow system: Users can follow and unfollow other users to see their tweets in their timeline.
+- Like and comment: Users can like tweets and leave comments on them to engage with other users.
+- Responsive design: The application is designed to work seamlessly on different devices and screen sizes.
 
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=ytkG7RT6SvU)
+## Technologies Used
 
-[DOCKER VERSION by mandeepsingh10](https://github.com/mandeepsingh10/chwitter)
+- Next.js 13: A React framework that provides server-side rendering, routing, and other useful features for building web applications.
+- React: A JavaScript library for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework that enables rapid UI development with pre-defined classes.
+- Prisma: A modern database toolkit that provides an ORM (Object-Relational Mapping) for working with databases.
+- MongoDB: A NoSQL document database that offers flexibility and scalability for storing application data.
+- TypeScript: A typed superset of JavaScript that enhances code quality and provides better tooling and scalability.
+- NextAuth.js: A flexible authentication library for Next.js applications that supports various authentication providers.
 
-We are going to learn funcionalities such as:
-
-- Authentication system
-- Notification system
-- Image Upload using Base64 strings
-- Prisma ORM with MongoDB
-- Responsive Layout
-- 1 To Many Relations (User - Post)
-- Many To Many Relations (Post - Comment)
-- Following functionality
-- Comments / Replies
-- Likes functionality
-- Vercel Deployment
+## Getting Started
 
 ### Prerequisites
 
-**Node version 14.x**
+Before running the application, make sure you have the following installed on your machine:
 
-### Cloning the repository
-
-```shell
-git clone https://github.com/AntonioErdeljac/twitter-clone.git
-```
-
-### Install packages
-
-```shell
-npm i
-```
-
-### Setup .env file
-
-
-```js
-DATABASE_URL=
-NEXTAUTH_JWT_SECRET=
-NEXTAUTH_SECRET=
-```
-
-### Start the app
-
-```shell
-npm run dev
-```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
+- Node.js: Ensure you have Node.js installed. You can download it from [https://nodejs.org](https://nodejs.org).
+- MongoDB: Set up a MongoDB instance or use a cloud-hosted MongoDB service.
