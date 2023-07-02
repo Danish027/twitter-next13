@@ -1,16 +1,15 @@
 # Twitter Clone
 
-This is a Twitter clone application built with Next.js 13, React, Tailwind CSS, Prisma, MongoDB, TypeScript, and NextAuth.js. It aims to replicate the basic functionality of Twitter, allowing users to create accounts, post tweets, follow other users, and interact with tweets through likes and comments.
+This is an Airbnb clone, a web application that allows users to search for and book accommodations. It is built using Next.js framework, React, Tailwind CSS, and Prisma as the database ORM.
 
 ## Features
 
-- User authentication: Users can create an account, log in, and log out using NextAuth.js for easy authentication setup.
-- Tweet creation: Users can compose and post their own tweets, including text and optionally images or videos.
-- Timeline: Users can view a timeline of tweets from the users they follow, allowing them to stay updated on the latest posts.
-- User profiles: Each user has a profile page where their tweets and other information are displayed.
-- Follow system: Users can follow and unfollow other users to see their tweets in their timeline.
-- Like and comment: Users can like tweets and leave comments on them to engage with other users.
-- Responsive design: The application is designed to work seamlessly on different devices and screen sizes.
+- User authentication: Users can sign up, log in, and log out.
+- Accommodation search: Users can search for accommodations based on location, dates, and other filters.
+- Accommodation details: Users can view detailed information about each accommodation, including photos, descriptions, amenities, and reviews.
+- Booking management: Logged-in users can book accommodations and manage their bookings.
+- Reviews and ratings: Users can leave reviews and ratings for accommodations they have booked.
+- Responsive design: The application is fully responsive and works well on different screen sizes.
 
 ## Technologies Used
 
